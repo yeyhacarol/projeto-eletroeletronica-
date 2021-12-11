@@ -1,0 +1,42 @@
+header {
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 95px;
+    background-color: #0F095B;
+    padding: 25px 60px 0px 50px;
+    top: 0;
+    z-index: 1;
+}
+
+header img {
+    display: flex;
+    float: left;
+    max-width: 200px;
+    max-height: 50px;
+}
+
+.menu-principal {
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    float: right;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+@media screen and (max-width: 835px){
+    header {
+        padding: 25px 60px 0px 25px;
+    }
+
+    .menu-principal {
+        display: none;
+    }
+
+    header img {
+        max-width: 150px;
+        height: 90px;
+    }
+}

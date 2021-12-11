@@ -1,0 +1,51 @@
+.o-que-e {
+    height: calc(100vh - 95px);
+    background-color: #EEEE;
+    display: flex;
+}
+
+.textos-o-que-e {
+    width: 660px;
+    margin-top: 40%;
+    margin-left: 20%;
+}
+
+.textos-o-que-e > h1 {
+    color: #30063f;
+    font-size: 50px;
+}
+
+.textos-o-que-e > h2 {
+    color: #935757;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.textos-o-que-e > p {
+    font-size: 26px;
+}
+
+.o-que-e button {
+    width: 170px;
+    height: 60px;
+    font-size: 22px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.o-que-e button a { 
+    text-decoration: none;
+    color: #08063F;
+}
+
+.fundo-robo {
+    width: 50%;
+    display: absolute;
+    flex-direction: column;
+    background-color: #c0c6f3;
+    margin-left: 30%;
+}

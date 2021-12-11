@@ -1,0 +1,47 @@
+.sobre {
+    height: calc(100vh - 176px);
+    background-color: white;
+}
+
+.textos-sobre {
+    transform: skewY(2deg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    height: 380px;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.textos-sobre > p{
+    font-size: 26px;
+    text-align: justify;
+    width: 50%;
+    display: flex;
+}
+
+.conteiner-rotate-sobre {
+    display: flex;
+    margin-top: 80px;
+    height: 680px;
+    background-color: #140F56;
+    transform: skewY(-2deg);
+}
+.mapa {
+    transform: skewY(2deg);
+}
+.mapa > p {
+    color: white;
+    margin-top: 580px;
+    width: 400px;
+  }
+  
+.mapa iframe {
+    width: 540px;
+    height: 450px;
+    position: absolute;
+    right: 95px;
+    top: 120px;
+}

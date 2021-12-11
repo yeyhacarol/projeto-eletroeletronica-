@@ -1,0 +1,87 @@
+.home {
+    height: calc(100vh - 95px); 
+    background-image: url(../imgs/background-home.png);
+    background-size: cover;
+    background-color:  #070c33dc;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+}
+
+.home h1 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-top: 190px;
+}
+
+.mercado-trabalho {
+    color: #08063F;
+    font-size: 26px;
+}
+.mercado-trabalho :first-child {
+    position: absolute;
+    margin-left: 200px;
+    width: 360px;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.mercado-trabalho p:nth-child(2) {
+    position: absolute;
+    margin-left: 590px;
+    width: 370px;
+    height: 140px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.home button {
+    width: 170px;
+    height: 60px;
+    font-size: 22px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    position: absolute;
+    left: 300px;
+    margin-top: 300px;
+}
+
+button a { 
+    text-decoration: none;
+    color: white;
+}
+
+.conteiner-rotate-home {
+    position: relative;
+    background-color: #D1D3E0;
+    height: 50%;
+    margin-top: 10%;
+}
+
+.home img {
+    position: absolute;
+    right: 100px;
+    margin-top: 550px;
+    width: 300px;
+    height: 270px;
+}
+
+@media screen and (max-width: 835px) {
+    .home {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .mercado-trabalho :nth-child(2) {
+        display: none;
+    }
+
+    .home img {
+        display: none;
+    }
+}
