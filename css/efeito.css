@@ -1,0 +1,28 @@
+.sub-material, .sub-requisitos, .sub-valor, .sub-matricular, .sub-presencial, .sub-horario {
+    background-color: #d1d3e0;
+    display: none;
+}
+
+.material:hover > .sub-material{
+    display: flex;
+}
+
+.requisitos:hover > .sub-requisitos{
+    display: flex;
+}
+
+.valor:hover > .sub-valor{
+    display: flex;
+}
+
+.matricular:hover > .sub-matricular{
+    display: flex;
+}
+
+.presencial:hover > .sub-presencial{
+    display: flex;
+}
+
+.horario:hover > .sub-horario{
+    display: flex;
+}

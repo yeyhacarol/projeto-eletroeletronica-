@@ -1,0 +1,133 @@
+#duvidas {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: #dbd6ee;
+    background-size: cover;
+    background-position: right top;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 55px;
+    position: absolute;
+    left: 450px;
+    top: 47.47px;
+  }
+  
+  .material {
+    position: relative;
+    background-color: #d1d3e0;
+    width: 1200px;
+    height: 98.89px;
+    top: 150px;
+  }
+  
+  .textM {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 40px;
+    position: relative;
+    left: 205px;
+    top: 25px;
+  }
+
+  .sub-material {
+    position: relative;
+    width: 1440px;
+    top: 45px;
+  }
+  
+  .requisitos {
+    position: relative;
+    background-color: #d1d3e0;
+    width: 1200px;
+    height: 98.89px;
+    top: 200px;
+  }
+  
+  .textR {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 40px;
+    position: relative;
+    left: 205px;
+    top: 25px;
+  }
+  
+  .valor {
+    position: relative;
+    background-color: #d1d3e0;
+    width: 1200px;
+    height: 98.89px;
+    top: 230px;
+  }
+  
+  .textV {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 40px;
+    position: relative;
+    left: 205px;
+    top: 25px;
+  }
+  
+  .matricular {
+    position: relative;
+    background-color: #d1d3e0;
+    width: 1200px;
+    height: 98.89px;
+    top: 280px;
+  }
+  
+  .textM2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 40px;
+    position: relative;
+    left: 205px;
+    top: 25px;
+  }
+  
+  .presencial {
+    position: relative;
+    background-color: #d1d3e0;
+    width: 1200px;
+    height: 98.89px;
+    top: 325px;
+  }
+  
+  .textP {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 40px;
+    position: relative;
+    left: 205px;
+    top: 25px;
+  }
+  
+  .horario {
+    position: relative;
+    background-color: #d1d3e0;
+    width: 1200px;
+    height: 98.89px;
+    top: 350px;
+    margin-bottom: 25px;
+  }
+  
+  .textH {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 40px;
+    position: relative;
+    left: 205px;
+    top: 25px;
+  }
