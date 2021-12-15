@@ -3,26 +3,26 @@
     display: none;
 }
 
-.material:hover > .sub-material{
+.duvidas div:nth-child(1):hover > .sub-material{
     display: flex;
 }
 
-.requisitos:hover > .sub-requisitos{
+.duvidas div:nth-child(2):hover > .sub-requisitos{
     display: flex;
 }
 
-.valor:hover > .sub-valor{
+.duvidas div:nth-child(3):hover > .sub-valor{
     display: flex;
 }
 
-.matricular:hover > .sub-matricular{
+.duvidas div:nth-child(4):hover > .sub-matricular{
     display: flex;
 }
 
-.presencial:hover > .sub-presencial{
+.duvidas div:nth-child(5):hover > .sub-presencial{
     display: flex;
 }
 
-.horario:hover > .sub-horario{
+.duvidas div:nth-child(6):hover > .sub-horario{
     display: flex;
 }
