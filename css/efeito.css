@@ -1,0 +1,28 @@
+.sub-material, .sub-requisitos, .sub-valor, .sub-matricular, .sub-presencial, .sub-horario {
+    background-color: #d1d3e0;
+    display: none;
+}
+
+.duvidas div:nth-child(1):hover > .sub-material{
+    display: flex;
+}
+
+.duvidas div:nth-child(2):hover > .sub-requisitos{
+    display: flex;
+}
+
+.duvidas div:nth-child(3):hover > .sub-valor{
+    display: flex;
+}
+
+.duvidas div:nth-child(4):hover > .sub-matricular{
+    display: flex;
+}
+
+.duvidas div:nth-child(5):hover > .sub-presencial{
+    display: flex;
+}
+
+.duvidas div:nth-child(6):hover > .sub-horario{
+    display: flex;
+}
