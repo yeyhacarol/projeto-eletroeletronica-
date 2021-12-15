@@ -1,139 +1,140 @@
 .modulos {
-    height: calc(100% - 95px);
-    background-color: #D1D3E0;
+  height: calc(100% - 95px);
+  background-color: #d1d3e0;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-    gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 40px;
 }
 
-.modulos h1 {
-    font-size: 125%;
-    
-    margin-top: 20%;
+.texto-modulos h1 {
+  font-size: 125%;
+  margin-left: 0;
+  margin-top: 20%;
 }
 
 .texto-modulos {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
-    font-size: 21px;
+  font-size: 21px;
 }
 
 .lista-conteudo {
-    display: flex;
-    flex-direction: column;  
-    margin: 50px;
-    align-items: flex-start;
-    font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  align-items: flex-start;
+  font-size: 22px;
 }
 
 .modulos img {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    margin-bottom: 40px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin-bottom: 40px;
 }
 
 .flipper-front p {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .flip-card-container {
-    width: 280px;
-    height: 360px;
-    perspective: 1000px;
+  width: 280px;
+  height: 360px;
+  perspective: 1000px;
 
-    gap: 25px;
+  gap: 25px;
 }
 
 .flipper-card {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: transform 0.8s;
-    background-color: #7388E2;
-    font-size: 24px;
-    margin-top: 25px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+  background-color: #7388e2;
+  font-size: 24px;
+  margin-top: 25px;
 }
 
 .all-cards {
-    display: flex;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 
-    gap: 25px;
+  gap: 25px;
 
-	width: 90%;
+  width: 90%;
 }
 
 .flip-card-container:hover .flipper-card {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
-.flipper-front, .flipper-back {
-    position: absolute;
-    backface-visibility: hidden;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.flipper-front,
+.flipper-back {
+  position: absolute;
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flipper-back {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .border {
-    width: 246px;
-    height: 316px;
-    border: 1px solid; 
-    border-color: white;
-    position: absolute;
+  width: 246px;
+  height: 316px;
+  border: 1px solid;
+  border-color: white;
+  position: absolute;
 }
 
 .modulos > button {
-    width: 170px;
-    height: 45px;
-    background-color: #578EA4;
-    font-family: 'Open sans', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
-    border-radius: 0px 20px;
+  width: 170px;
+  height: 45px;
+  background-color: #578ea4;
+  font-family: "Open sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  border-radius: 0px 20px;
 }
 
 .modulos button a {
-    color: white;
+  color: white;
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    color: black;
+  color: black;
 }
 
 div a {
-    color: white;
+  color: white;
 }
 
 @media (max-width: 900px) {
-	.modulos .all-cards {
-		width: 100%;
-		margin: 0px 20px;
-	}
+  .modulos .all-cards {
+    width: 100%;
+    margin: 0px 20px;
+  }
 
-	.modulos .flip-card-container {
-		margin: 20px 0px;
-	}
+  .modulos .flip-card-container {
+    margin: 20px 0px;
+  }
 }

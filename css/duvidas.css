@@ -6,23 +6,23 @@
   padding: 0 80px;
 }
 
-main h1 {
+/*main h1 {
   font-family: Open Sans;
   font-style: normal;
   font-size: 400%;
   position: absolute;
   left: 35%;
   top: 7%;
-}
+}*/
 
-.duvidas{
+.duvidas {
   display: flex;
   flex-direction: column;
   gap: 15px;
   height: 38.75rem;
 }
 
-.duvidas p{
+.duvidas p {
   font-family: Open Sans;
   font-style: normal;
   font-size: clamp(1rem, 2.5rem, 3rem);
@@ -30,7 +30,7 @@ main h1 {
   top: 20%;
 }
 
-.duvidas span{
+.duvidas span {
   font-family: Open Sans;
   font-style: normal;
   font-size: clamp(1.5rem, 2rem, 2.5rem);
@@ -38,7 +38,7 @@ main h1 {
   top: 20%;
 }
 
-.pergunta{
+.pergunta {
   height: 40%;
   width: 100%;
   background-color: #d1d3e0;
@@ -93,9 +93,8 @@ main h1 {
   left: 5%;
 }
 
-@media screen and (max-width: 835px){
-
-  .tituloDuvidas{
+@media screen and (max-width: 835px) {
+  .tituloDuvidas {
     left: 15%;
   }
 }

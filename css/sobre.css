@@ -86,7 +86,7 @@
 }
 
 @media (max-width: 500px) {
-    .textos-sobre p, h1 {
+    .textos-sobre > p, h1 {
         font-size: 14.5px;
     }
 }
