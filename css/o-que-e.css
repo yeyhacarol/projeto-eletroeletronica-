@@ -1,7 +1,10 @@
 .o-que-e {
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    height: calc(100% - 95px);
+    background-color: #EEEE;
+    display: flex;
 }
 
 .quadrinho-textos {
@@ -11,6 +14,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .textos {
   margin-bottom: 150px;
   margin-right: 120px;

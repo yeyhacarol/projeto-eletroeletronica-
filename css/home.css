@@ -1,87 +1,246 @@
 .home {
-    height: calc(100vh - 95px); 
+    height: calc(100% - 95px); 
     background-image: url(../imgs/background-home.png);
     background-size: cover;
-    background-color:  #070c33dc;
-    background-blend-mode: multiply;
-    display: flex;
-    flex-direction: column;
+	background-color: #070c33dc;
+	background-blend-mode: multiply;
+	background-position: 50%;
+
+	color: white;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .home h1 {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    font-size: 72px;
-    font-weight: bold;
-    margin-left: 300px;
-    margin-top: 190px;
+	font-size: 450%;
+	font-weight: bold;
+
+    margin-left: -30%;
+    margin-top: -10%;
 }
 
-.mercado-trabalho {
-    color: #08063F;
-    font-size: 26px;
-}
-.mercado-trabalho :first-child {
-    position: absolute;
-    margin-left: 200px;
-    width: 360px;
-    text-align: center;
-    margin-top: 140px;
-}
-
-.mercado-trabalho p:nth-child(2) {
-    position: absolute;
-    margin-left: 590px;
-    width: 370px;
-    height: 140px;
-    text-align: center;
-    margin-top: 130px;
-}
-
-.home button {
+.home > button {
     width: 170px;
     height: 60px;
-    font-size: 22px;
+
     background-color: transparent;
-    border-style: solid;
+
     border-color: white;
-    position: absolute;
-    left: 300px;
-    margin-top: 300px;
+    border-style: solid;
+
+    margin-left: -58%;
 }
 
-button a { 
+.home > button a {
     text-decoration: none;
+    
+    font-size: 22px;
+
     color: white;
 }
 
 .conteiner-rotate-home {
-    position: relative;
     background-color: #D1D3E0;
+    
+    width: 100%;
     height: 50%;
-    margin-top: 10%;
+
+    clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%);
+
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+	bottom: 0px;
 }
 
-.home img {
+.mercado-trabalho{
+    color: #08063F;
+    font-size: 1.6rem;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 57px;
+}
+
+.mercado-trabalho p:first-child {
+    width: 360px;
+    height: 75px;
+
+    float: left; 
+}
+
+.mercado-trabalho p:nth-child(2) {
+    width: 520px;
+    height: 140px;
+
+    float: right;
+}
+
+.home > img {
     position: absolute;
-    right: 100px;
-    margin-top: 550px;
+    right: 0px;
+    margin-top: 30%;
     width: 300px;
     height: 270px;
 }
 
-@media screen and (max-width: 835px) {
-    .home {
-        height: 100vh;
-        width: 100vw;
+@media (max-width: 720px) {
+    .home h1 {
+        font-size: ];
     }
 
-    .mercado-trabalho :nth-child(2) {
-        display: none;
+}
+
+@media (max-width: 1075px) {
+    .mercado-trabalho {
+        font-size: 1.4rem;
+    }
+
+    .home img {
+        width: 210px;
+        height: 210px;
+
+        right: 0px;
+    }
+}
+
+@media (max-width: 1045px) {
+    .mercado-trabalho {
+        font-size: 1.2rem;
+    }
+
+    .mercado-trabalho p:nth-child(2) {
+        width: 400px;
+    }
+
+    .home img {
+        width: 200px;
+        height: 190px;
+
+        right: 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mercado-trabalho {
+        font-size: 2.2rem;
     }
 
     .home img {
         display: none;
+    }
+
+    .mercado-trabalho p:first-child {
+        width: 425px;
+    }
+
+    .mercado-trabalho p:nth-child(2) {
+        width: 520px;
+    }
+}
+
+@media (max-width: 840px) {
+    .mercado-trabalho {
+        font-size: 1.5rem;
+
+        margin-top: 15%;
+    }
+
+    .mercado-trabalho p:nth-child(2) {
+        width: 320px;
+    }
+}
+
+@media (max-width: 720px) {
+	.home h1 {
+		font-size: 3rem;
+
+        margin-top: -15%;
+	}
+
+    .home button {
+        width: 150px;
+        height: 55px;
+
+        margin-left: -55%;
+    }
+
+    .mercado-trabalho {
+        font-size: 1.2rem;
+        
+        margin-top: 15%;
+    }
+
+    .mercado-trabalho p:nth-child(2) {
+        width: 300px;
+    }
+}
+
+@media (max-width: 660px) {
+    .mercado-trabalho {
+        font-size: 1.125rem;
+
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+
+    .mercado-trabalho p:first-child {
+        width: 200px;
+    }
+
+    .mercado-trabalho p:nth-child(2) {
+        width: 280px;
+    }
+}
+
+@media (max-width: 490px) {
+	.home h1 {
+		font-size: 2.5rem;
+
+        margin-left: -2%;
+        margin-top: -30%;
+	}
+
+    .home button {
+        width: 120px;
+        height: 45px;
+
+        margin-left: -45%;
+    }
+
+    .home button a {
+        font-size: 20px;
+    }
+
+    .mercado-trabalho {
+        font-size: 1.4rem;
+    }
+
+    .mercado-trabalho p:first-child {
+        width: 300px;
+        
+        margin-top: -7%;
+        margin-left: 10%;
+    }
+
+    .home .mercado-trabalho p:nth-child(2) {
+        display: none;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .mercado-trabalho p:first-child {
+        width: 300px;
+
+        font-size: 1.3rem;
+
+        margin-left: 3%;
     }
 }
