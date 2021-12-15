@@ -1,51 +1,135 @@
 .o-que-e {
-    height: calc(100vh - 95px);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    height: calc(100% - 95px);
     background-color: #EEEE;
     display: flex;
 }
 
-.textos-o-que-e {
-    width: 660px;
-    margin-top: 40%;
-    margin-left: 20%;
+.quadrinho-textos {
+  display: flex;
+  width: 100%;
+  background-color: #eeeeee;
+  align-items: center;
+  justify-content: center;
 }
 
-.textos-o-que-e > h1 {
-    color: #30063f;
-    font-size: 50px;
+.textos {
+  margin-bottom: 150px;
+  margin-right: 120px;
+  width: 590px;
+  font-family: 'Open Sans', sans-serif;
+  align-items: left;
 }
 
-.textos-o-que-e > h2 {
-    color: #935757;
-    font-size: 30px;
-    font-weight: lighter;
+.textos > h1 {
+  margin-top: 15px;
+  color: #30063f;
+  font-size: 3rem;
 }
 
-.textos-o-que-e > p {
-    font-size: 26px;
+.textos > h2 {
+  font-weight: lighter;
+  margin-top: 5px;
+  color: #935757;
+  font-size: 1.8rem;
+}
+.textos > p {
+  margin-top: 15px;
+  font-size: 1.4rem;
 }
 
-.o-que-e button {
-    width: 170px;
-    height: 60px;
-    font-size: 22px;
-    background-color: transparent;
-    border-style: solid;
-    border-color: black;
-    position: absolute;
-    margin-left: 30px;
-    margin-top: 30px;
+.textos > a {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 66px;
+  font-size: 1.8rem;
+  color: #08063f;
+  text-decoration: none;
+  border: 1px solid #000;
+  transition: all 0.5s;
 }
 
-.o-que-e button a { 
-    text-decoration: none;
-    color: #08063F;
+.textos > a:hover {
+  border: 1px solid #ffffff;
+  background-color: #839bff;
 }
 
-.fundo-robo {
-    width: 50%;
-    display: absolute;
-    flex-direction: column;
+.textos-mobile {
+  display: none;
+}
+
+.quadradro-robozinho {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #c0c6f3;
+}
+
+.robozinho {
+  position: absolute;
+  right: 0;
+  margin-top: 50px;
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  height: 80%;
+  background-color: #dad9ee;
+}
+
+.robozinho > img {
+  height: 340px;
+  width: 390px;
+}
+
+@media screen and (max-width: 835px) {
+  .quadrinho-textos {
+    display: none;
+  }
+  .textos {
+    display: none;
+  }
+
+  .textos-mobile {
+    height: 100%;
     background-color: #c0c6f3;
-    margin-left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .textos-mobile > h1 {
+    margin-top: 70%;
+    color: #30063f;
+  }
+
+  .textos-mobile > p {
+    margin: 20px;
+    text-align: center;
+  }
+
+  .quadradro-robozinho {
+    display: none;
+  }
+
+  .robozinho {
+    left: 18%;
+    width: 65%;
+    height: 35%;
+    justify-content: flex-end;
+  }
+  .robozinho > img {
+    margin-top: 25px;
+    height: 90%;
+    width: 90%;
+  }
 }

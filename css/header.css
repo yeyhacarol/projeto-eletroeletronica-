@@ -1,7 +1,7 @@
 header {
     display: block;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     height: 95px;
     background-color: #0F095B;
     padding: 25px 60px 0px 50px;
@@ -26,17 +26,8 @@ header img {
     gap: 40px;
 }
 
-@media screen and (max-width: 835px){
-    header {
-        padding: 25px 60px 0px 25px;
-    }
-
+@media screen and (max-width: 840px) {
     .menu-principal {
         display: none;
-    }
-
-    header img {
-        max-width: 150px;
-        height: 90px;
     }
 }
