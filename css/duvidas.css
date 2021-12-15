@@ -1,0 +1,105 @@
+#duvidas {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 80px;
+}
+
+.duvidas h1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 400%;
+  position: absolute;
+  left: 35%;
+  top: 7%;
+}
+
+.duvidas{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 38.75rem;
+}
+
+.duvidas p{
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: clamp(1rem, 2.5rem, 3rem);
+  left: 5%;
+  top: 20%;
+}
+
+.duvidas span{
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: clamp(1.5rem, 2rem, 2.5rem);
+  left: 5%;
+  top: 20%;
+}
+
+.pergunta{
+  height: 40%;
+  width: 100%;
+  background-color: #d1d3e0;
+  padding: 20px;
+}
+
+.material {
+  background-color: #d1d3e0;
+  width: 90%;
+  height: 7%;
+  top: 0%;
+  left: 5%;
+}
+
+.requisitos {
+  background-color: #d1d3e0;
+  width: 90%;
+  height: 7%;
+  top: 5%;
+  left: 5%;
+}
+
+.valor {
+  background-color: #d1d3e0;
+  width: 90%;
+  height: 7%;
+  top: 8%;
+  left: 5%;
+}
+
+.matricular {
+  background-color: #d1d3e0;
+  width: 90%;
+  height: 7%;
+  top: 11%;
+  left: 5%;
+}
+
+.presencial {
+  background-color: #d1d3e0;
+  width: 90%;
+  height: 7%;
+  top: 14%;
+  left: 5%;
+}
+
+.horario {
+  background-color: #d1d3e0;
+  width: 90%;
+  height: 7%;
+  top: 17%;
+  left: 5%;
+}
+
+.duvidas a {
+  color: black;
+}
+
+@media screen and (max-width: 835px){
+
+  .tituloDuvidas{
+    left: 15%;
+  }
+}

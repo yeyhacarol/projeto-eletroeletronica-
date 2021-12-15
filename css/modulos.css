@@ -108,7 +108,6 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
-    border-radius: 0px 20px;
 }
 
 .modulos button a {
@@ -119,14 +118,6 @@ a:link {
     text-decoration: none;
 }
 
-a:hover {
-    color: black;
-}
-
-div a {
-    color: white;
-}
-
 @media (max-width: 900px) {
 	.modulos .all-cards {
 		width: 100%;
@@ -135,5 +126,5 @@ div a {
 
 	.modulos .flip-card-container {
 		margin: 20px 0px;
-	}
+    }
 }
