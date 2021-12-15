@@ -14,8 +14,9 @@
     <link rel="stylesheet" a href="css/home.css">
     <link rel="stylesheet" a href="css/o-que-e.css">
     <link rel="stylesheet" a href="css/modulos.css">
+    <link rel="stylesheet" a href="./css/galeria.css">
     <link rel="stylesheet" a href="css/sobre.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" a href="css/footer.css">
     <title>Projeto Eletroeletrônica</title>
 </head>
 
@@ -48,22 +49,31 @@
             <img src="imgs/estatistica-home.png" />
         </section>
 
-        <section class="o-que-e">
-            <div class="conteiner-o-que-e">
-                <div class="textos-o-que-e">
-                    <h2>Sobre eletroeletrônica</h2>
+        <section id="o-que-e" class="o-que-e">
+            <div class="quadrinho-textos">
+                <div class="textos">
+                    <h2>Sobre eletroeletrônica...</h2>
                     <h1>Do que se trata?</h1>
-                    <p>Curso do qual o aluno estudará sobre elétrica e eletrônica
+                    <p>
+                        Curso do qual o aluno estudará sobre elétrica e eletrônica
                         simultaneamente, desde a manutenção básica à automação predial
                         além de iniciar em processos industriais, introdução ao maquinário
                         de forma teórica e prática. Pensado para quem quer crescer um
                         negócio!
                     </p>
-                    <button><a href="#">Módulos</a></button>
+                    <a href="#modulos"> Módulos </a>
                 </div>
             </div>
-            <div class="fundo-robo"></div>
-            <!-- <img src="imgs/robozinho.png">  -->
+            <div class="textos-mobile">
+                <h1>Do que se trata?</h1>
+                <p>É um curso que envolve elétrica e eletrônica onde o aluno aprende desde a realização básica residenciais á trabalhos avançados industrias. </p>
+            </div>
+            <div class="quadradro-robozinho">
+                <h6></h6>
+            </div>
+            <div class="robozinho">
+                <img src="./imgs/robozinho.png" alt="" />
+            </div>
         </section>
 
         <section class="modulos">
@@ -148,6 +158,42 @@
                 </a>
             </button>
         </section>
+        <section class="galeria">
+            <div class="teste">
+                <div class="slides">
+                    <input type="radio" name="slides" id="slide1">
+                    <input type="radio" name="slides" id="slide2">
+                    <input type="radio" name="slides" id="slide3">
+                    <input type="radio" name="slides" id="slide4">
+                    <input type="radio" name="slides" id="slide5">
+
+                    <div class="slide s1">
+                        <img src="./imgs/image1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./imgs/image2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./imgs/image3.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./imgs/image4.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./imgs/image5.png" alt="">
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <label class="barrinha" for="slide1"></label>
+                    <label class="barrinha" for="slide2"></label>
+                    <label class="barrinha" for="slide3"></label>
+                    <label class="barrinha" for="slide4"></label>
+                    <label class="barrinha" for="slide5"></label>
+                </div>
+
+            </div>
+        </section>
 
         <section class="sobre">
             <div class="conteiner-rotate-sobre">
@@ -160,6 +206,14 @@
                         prestador de serviço tecnológico voltados para assessoria, pesquisa aplicada,
                         serviço laboratorial etc.
                     </p>
+                </div>
+
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1049090668953!2d-46.
+                    900181784424234!3d-23.52872886627444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+                    1s0x94cf0154039cb55b%3A0xadf34a919f156950!2sSENAI%20Jandira%20-%20Professor%20Vicente%20Amato!
+                    5e0!3m2!1sen!2sbr!4v1639247570333!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <p>Clique aqui para conferir onde estamos!</p>
                 </div>
             </div>
             <div class="mapa">
