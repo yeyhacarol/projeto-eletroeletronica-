@@ -133,6 +133,10 @@
   }
 }
 
+.duvidas a {
+  color: black;
+}
+
 @media screen and (max-width: 360px){
   .tituloDuvidas{
     display: none;

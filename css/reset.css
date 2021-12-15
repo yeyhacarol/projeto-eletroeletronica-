@@ -19,3 +19,11 @@ section {
     position: relative;
     overflow: hidden !important;
 }
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: #2D9CFF;
+}
