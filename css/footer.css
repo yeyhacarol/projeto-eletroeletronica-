@@ -58,7 +58,7 @@
   font-size: clamp(20px, 1.5rem, 3rem);
 }
 
-@media (max-width: 835px) {
+@media (max-width: 800px) {
   .footer {
     height: 100vh;
     width: 100vw;
@@ -70,14 +70,7 @@
     display: none;
   }
   .footer-infos > p {
-    align-self: flex-end;
-  }
-
-  .contatos p:nth-child(2) {
-    display: flex;
-    position: absolute;
-    right: 50%;
-    bottom: 15%;
+    align-self: center;
   }
 
   .footer-infos > img {
@@ -99,13 +92,19 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 460px) {
   .footer-infos > p {
     margin-left: 30%;
     width: 26rem;
   }
 
   .contatos div {
+    display: none;
+  }
+}
+
+@media (max-width: 1074px) {
+  .footer-infos > img {
     display: none;
   }
 }
