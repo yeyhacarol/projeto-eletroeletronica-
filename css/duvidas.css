@@ -7,9 +7,7 @@
 }
 
 .tituloDuvidas {
-  font-family: Open Sans;
-  font-style: normal;
-  font-size: 400%;
+  font-size: 300%;
   position: absolute;
   left: 33%;
   top: 1%;
@@ -101,7 +99,7 @@
 @media screen and (max-width: 900px){
   .tituloDuvidas{
     left: 9%;
-    font-size: 250%;
+    font-size: 210%;
   }
 }
 

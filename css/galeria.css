@@ -1,14 +1,14 @@
 .galeria {
-  height: 100vh;
-  background-color: #d1d3e0;
+  height: 70vh;
+  background-color: #7573e2;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .teste {
-  height: 520px;
-  width: 1000px;
+  height: 65vh;
+  width: 80vw;
   overflow: hidden;
 }
 
@@ -26,10 +26,12 @@
   margin: 5px;
   border-radius: 6px;
   transition: 0.7s;
+  
+  margin-top: 68vh;
 }
 
 .barrinha:hover {
-  background-color: #7573e2;
+  background-color: #fff;
 }
 
 input {
@@ -70,4 +72,23 @@ input {
 
 #slide5:checked ~ .s1 {
   margin-left: -80%;
+}
+
+@media screen and (max-width: 835px) {
+  .galeria {
+    height: 50vh;
+  }
+  .teste {
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .barrinha {
+    width: 50px;
+    height: 15px;
+    border: 3px solid #fff;
+    border-radius: 6px;
+    transition: 0.7s;
+  }
 }

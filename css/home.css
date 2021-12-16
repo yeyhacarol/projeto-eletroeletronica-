@@ -5,43 +5,55 @@
   background-color: #070c33dc;
   background-blend-mode: multiply;
   background-position: 50%;
+
   color: white;
+
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.home h1 {
+.titulo-home {
+  margin-top: 5%;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ .titulo-home h1 {
   font-size: 450%;
   font-weight: bold;
-  margin-left: -30%;
-  margin-top: -10%;
 }
 
-.home > button {
+.titulo-home > button {
   width: 170px;
   height: 60px;
+
   background-color: transparent;
+
   border-color: white;
   border-style: solid;
-  margin-left: -58%;
 }
 
-.home > button a {
+.titulo-home > button a {
   text-decoration: none;
-  font-size: 1.4rem;
+
+  font-size: 1.3rem;
   color: white;
 }
 
 .conteiner-rotate-home {
   background-color: #d1d3e0;
+
   width: 100%;
   height: 50%;
   clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%);
+
   display: flex;
   align-items: center;
   position: absolute;
+
   bottom: 0px;
 }
 
@@ -49,166 +61,85 @@
   color: #08063f;
   font-size: 1.6rem;
   text-align: center;
+
   display: flex;
-  align-items: baseline;
+  justify-content: center;
+  
   margin-top: 5%;
-  gap: 20px;
-  margin-left: 10%;
 }
 
 .mercado-trabalho p:first-child {
-  width: 360px;
-  height: 75px;
+  width: 335px;
 }
 
 .mercado-trabalho p:nth-child(2) {
-  width: 520px;
-  height: 140px;
+  max-width: 480px;
 }
 
-.home > img {
+ .img-home {
   position: absolute;
-  right: 10%;
-  margin-top: 30%;
-  width: 300px;
-  height: 270px;
-}
+  right: 8%;
+  margin-top: 5%;
+  max-width: 280px;
+  max-height: 270px;
+  min-height: 50px;
+} 
 
-@media (max-width: 1200px) {
-  .home img {
-    display: none;
-  }
-}
 
 @media (max-width: 1075px) {
-  .mercado-trabalho {
-    font-size: 1.5em;
+  .img-home {
+    width: 200px;
+    
+    right: 6%;
   }
 }
 
 @media (max-width: 1045px) {
-  .mercado-trabalho {
-    font-size: 1.4rem;
+  .img-home {
+    width: 180px;
+
+    right: 3%;
   }
 
-  .mercado-trabalho p:nth-child(2) {
-    width: 400px;
+}
+
+@media (max-width: 1025px) {
+  .img-home {
+    display: none;
+  } 
+
+  .mercado-trabalho {
+    width: 100vw;
   }
 }
 
-@media (max-width: 1024px) {
-  .mercado-trabalho {
-    font-size: 1.3rem;
-  }
-  .mercado-trabalho p:first-child {
-    width: 425px;
-  }
+@media (max-width: 721px) {
+  .titulo-home h1 {
+    font-size: 280%;
 
-  .mercado-trabalho p:nth-child(2) {
-    width: 420px;
-  }
-
-  .mercado-trabalho {
-    margin-left: 0%;
-  }
-
-  .home h1 {
-    margin-top: 0;
-    margin-bottom: 20%;
-  }
-
-  .home button {
-    margin-top: 0;
-    margin-bottom: 20%;
-  }
-}
-
-@media (max-width: 840px) {
-  .mercado-trabalho {
-    font-size: 1.5rem;
-    margin-top: 15%;
-  }
-
-  .mercado-trabalho p:nth-child(2) {
-    width: 320px;
-  }
-}
-
-@media (max-width: 720px) {
-  .home h1 {
-    font-size: 3rem;
-    margin-top: -15%;
-  }
-
-  .home button {
-    width: 150px;
-    height: 55px;
-    margin-left: -55%;
-  }
-
-  .mercado-trabalho {
-    font-size: 1.2rem;
-    margin-top: 15%;
-  }
-
-  .mercado-trabalho p:nth-child(2) {
-    width: 300px;
-  }
-}
-
-@media (max-width: 660px) {
-  .mercado-trabalho {
-    font-size: 1.125rem;
-    margin-top: 15%;
-    margin-left: 5%;
-  }
-
-  .mercado-trabalho p:first-child {
-    width: 200px;
-  }
-
-  .mercado-trabalho p:nth-child(2) {
-    width: 280px;
-  }
-}
-
-@media (max-width: 490px) {
-  .home h1 {
-    font-size: 2.5rem;
+    margin-top: 20%;
     margin-left: -2%;
-    margin-top: -30%;
-  }
-
-  .home button {
-    width: 120px;
-    height: 45px;
-
-    margin-left: -45%;
-  }
-
-  .home button a {
-    font-size: 20px;
-  }
-
-  .mercado-trabalho {
-    font-size: 1.4rem;
   }
 
   .mercado-trabalho p:first-child {
-    width: 300px;
-    margin-top: -7%;
-    margin-left: 10%;
+   width: 100vw;
   }
 
-  .home .mercado-trabalho p:nth-child(2) {
+  .mercado-trabalho :nth-child(2) {
     display: none;
   }
 }
 
-@media (max-width: 360px) {
-  .mercado-trabalho p:first-child {
-    width: 300px;
-    font-size: 1.3rem;
-    margin-left: 3%;
+@media (max-width: 380px) {
+  .titulo-home h1 {
+    font-size: 200%;
+
+    margin-top: 30%;
+    margin-left: -2%;
+  }
+
+  .titulo-home > button {
+    width: 140px;
+    height: 50px;
   }
 }
