@@ -12,4 +12,4 @@ Grupo responsável pela construção do website:<br>
 [Laise Silva](https://github.com/LaiseSilva)<br>
 [Florbela Freitas](https://github.com/Florbela-Freitas)<br>
 
-### Em andamento! :construction:
+### Projeto finalizado! 👍:
